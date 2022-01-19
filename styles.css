@@ -1,30 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* {
+body {
     background-color: gray;
-
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
 }
 
 .container {
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
     border: solid;
 }
 
 .header{
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: solid;
     margin: 0;
+    padding: 10px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+
+.header-links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero {
-    border: solid;
+    background-color: #1F2937;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid;
+    margin: 0;
+    padding: 10px 100px;
+
+    
 }
 
 .information {
