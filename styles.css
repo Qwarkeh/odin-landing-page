@@ -93,12 +93,39 @@ a {
 .information {
     display: flex;
     border: solid;
-
+    align-items: center; 
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 55px 100px;
 }
 
-.quote {
+.info-cards {
     display: flex;
-    border: solid;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-img {
+    height: auto;
+    width: 150px;
+}
+
+.squat,
+.bench,
+.deadlift,
+.overhead-press {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.quote {
+    display: flex; border: solid;
 }
 
 .sign-up {
