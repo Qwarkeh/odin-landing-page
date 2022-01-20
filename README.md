@@ -1,5 +1,7 @@
 # odin-landing-page
 
+A small tribute to barbell strength training.
+
 Photo credits:
 
 gym.jpg
