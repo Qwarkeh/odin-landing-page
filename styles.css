@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: gray;
     margin: 0;
     padding: 0;
     font-family: "roboto";
@@ -92,11 +91,19 @@ a {
 
 .information {
     display: flex;
-    border: solid;
     align-items: center; 
     justify-content: space-between;
     flex-direction: column;
-    padding: 55px 100px;
+    padding: 25px 100px;
+    gap: 20px; 
+}
+
+.information h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 0;
+    margin: 0;
 }
 
 .info-cards {
@@ -104,6 +111,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .info-img {
