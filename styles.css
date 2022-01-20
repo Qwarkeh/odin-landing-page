@@ -131,11 +131,22 @@ a {
     flex-direction: column;
 }
 
+.info-img {
+    display: flex;
+    width: 150px;
+}
+
+.info-text{
+    width: 150px;
+}
+
 .quote {
     background-color: #E5E7EB;
     display: flex; 
     padding: 55px 100px;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote-body {
@@ -143,6 +154,7 @@ a {
     font-size: 36px;
     padding: 0;
     margin: 0;
+    width: 750px;
 }
 
 .quote-credit {
@@ -151,6 +163,7 @@ a {
     font-weight: 700;
     padding: 0;
     margin: 0;
+    width: 750px;
 }
 
 .sign-up {
