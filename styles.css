@@ -23,7 +23,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    padding: 10px 100px;
+    padding: 10px 150px;
 }
 
 .logo {
@@ -52,7 +52,7 @@ a {
     align-items: center;
     justify-content: space-between;
     margin: 0;
-    padding: 55px 100px;
+    padding: 55px 150px;
     color: #F9FAF8;
     gap: 50px;
 }
@@ -89,7 +89,7 @@ button {
 
 .hero img {
     height: auto;
-    width: 600px;
+    width: 400px;
 }
 
 .information {
@@ -135,10 +135,12 @@ button {
 .info-img {
     display: flex;
     width: 150px;
+    border-radius: 10px;
 }
 
 .info-text{
     width: 150px;
+    text-align: center;
 }
 
 .quote {
@@ -172,7 +174,7 @@ button {
     border: none;
     align-items: center;
     justify-content: space-around;
-    margin: 55px 100px;
+    margin: 55px 150px;
     padding: 25px 0;
     border-radius: 20px;
     background-color: #3882F6;
@@ -199,9 +201,11 @@ button {
 
 #sign-up-button {
     border: solid;
-
 }
 
 .footer {
-    border: solid;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 25px 0;
 }
