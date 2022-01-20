@@ -85,6 +85,11 @@ a {
     border: none;
 }
 
+.hero img {
+    height: auto;
+    width: 600px;
+}
+
 .information {
     display: flex;
     border: solid;
